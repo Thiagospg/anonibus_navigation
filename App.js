@@ -51,13 +51,13 @@ const TabsScreen = () => (
       tabBarIcon: ({ focused, color, size }) => {
         let iconName;
         if (route.name === 'Home') {
-          iconName = focused ? 'facebook-f' : 'facebook-f';
+          iconName = focused ? 'home' : 'home';
         } else if (route.name === 'Profile') {
-          iconName = focused ? 'android' : 'android';
+          iconName = focused ? 'address-card' : 'address-card';
         } else if (route.name === 'Chat') {
-          iconName = focused ? 'apple' : 'apple';
+          iconName = focused ? 'comments' : 'comments';
         } else if (route.name === 'Upload') {
-          iconName = focused ? 'adobe' : 'adobe';
+          iconName = focused ? 'cloud-upload-alt' : 'cloud-upload-alt';
         }
         return <FontAwesome5 name={iconName} size={size} color={color} />;
       },

@@ -4,13 +4,13 @@ import "firebase/firestore";
 import "firebase/storage";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyB2FdxqvTqAt1aPstk4EQv0v3W6J2tFwtk",
-  authDomain: "anonibus-23bbf.firebaseapp.com",
-  databaseURL: "https://anonibus-23bbf.firebaseio.com",
-  projectId: "anonibus-23bbf",
-  storageBucket: "anonibus-23bbf.appspot.com",
-  messagingSenderId: "72805023943",
-  appId: "1:72805023943:web:e19afaafa38be93ea2bee2"
+  apiKey: "AIzaSyCsSoW9KRqvMlV7iHZ2NNyNiXsrwZPpxHA",
+  authDomain: "anonibus-thiago.firebaseapp.com",
+  databaseURL: "https://anonibus-thiago.firebaseio.com",
+  projectId: "anonibus-thiago",
+  storageBucket: "anonibus-thiago.appspot.com",
+  messagingSenderId: "577154091428",
+  appId: "1:577154091428:web:05f3e01c34bc9f061bd931"
 };
 
 export default !firebase.apps.length ? firebase.initializeApp(firebaseConfig) : firebase.app();

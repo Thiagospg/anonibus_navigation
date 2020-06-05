@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "anonibus_navigation",
-    "slug": "anonibus_navigation",
+    "name": "anonibus_navigation-thiago",
+    "slug": "anonibus_navigation-thiago",
     "platforms": [
       "ios",
       "android",
@@ -24,6 +24,7 @@
     "ios": {
       "supportsTablet": true
     },
-    "description": ""
+    "description": "",
+    "githubUrl": "https://github.com/Thiagospg/anonibus_navigation"
   }
 }
